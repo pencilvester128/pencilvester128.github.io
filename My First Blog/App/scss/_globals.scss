@@ -1,0 +1,21 @@
+html {
+    font-size: 100%;
+    //allows user to control the size of their font via their browser
+    box-sizing: border-box;
+    //box sizing border box keeps padding from making elements bigger than you want them to be
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.4;
+    margin: 0px;
+    padding: 0px;
+    background-color: darkblue;
+    color: white;
+}
+
