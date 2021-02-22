@@ -9,14 +9,27 @@ html {
           box-sizing: inherit;
 }
 
+.fullCard {
+
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 4px;
+}
+
 h1 {
   text-align: center;
 }
+
+p {
+  text-align: justify;
+}
+
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.4;
   margin: 0px;
   padding: 0px;
   background-color: rgb(9, 9, 80);
-  color: rgb(19, 170, 19);
+  color: rgb(179, 226, 179);
 }
