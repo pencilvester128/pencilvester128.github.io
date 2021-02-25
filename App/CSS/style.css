@@ -1,12 +1,5 @@
 html {
   font-size: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
 }
 
 .titleCard {
@@ -27,6 +20,31 @@ html {
   padding: 4px;
 }
 
+.projectCard {
+  width: 245px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(255,255,255,0.19), 0 6px 6px rgba(255, 255, 255, 0.23);
+
+}
+
+.projectCard:hover{
+  color:rgb(179, 226, 179)
+}
+
+.projectContent {
+  padding: 10px;
+}
+.projectText {
+  margin-bottom: 30px;
+}
+
+.projectDescription {
+  font-weight: 50;
+}
+
 h1 {
   text-align: center;
 }
@@ -36,10 +54,10 @@ p {
 }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.4;
+  font-family:  Arial, sans-serif;
+  line-height: 25px;
   margin: 0px;
   padding: 0px;
-  background-color: rgb(9, 9, 80);
+  background-color: rgb(2, 2, 31);
   color: rgb(179, 226, 179);
 }
