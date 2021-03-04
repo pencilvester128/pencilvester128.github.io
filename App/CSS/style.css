@@ -29,7 +29,6 @@ html {
   padding: 20px;
   box-shadow: 0 10px 20px rgba(255,255,255,0.19), 0 6px 6px rgba(255, 255, 255, 0.23);
   background: linear-gradient(35deg,#CCFFFF,#FFCCCC);
-  position:absolute;
 
 }
 
@@ -82,5 +81,11 @@ body {
   background-color: (#CCFFFF);
 }
 div:hover{
-  transform: scale(1.1);
+  animation-name: colorover;
+  animation-duration: 3s;
+}
+@keyframes colorover {
+  0% {background-color: whitesmoke;}
+  50% {background-color: rgb(56, 29, 209);}
+  100% {background-color:whitesmoke;}
 }
