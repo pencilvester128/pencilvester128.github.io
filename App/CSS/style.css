@@ -89,3 +89,13 @@ div:hover{
   50% {background-color: rgb(56, 29, 209);}
   100% {background-color:whitesmoke;}
 }
+
+div:hover{
+  animation-name: magnify;
+  animation-duration: 2s;
+}
+@keyframes magnify {
+  0% {transform: scale(1.1)}
+  50% {transform: scale(1.5)}
+  100% {transform: scale(1.1)}
+}
