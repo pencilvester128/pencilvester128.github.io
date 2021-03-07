@@ -19,6 +19,7 @@ html {
   border-radius: 5px;
   margin: 10px 5px;
   padding: 4px;
+  color: whitesmoke;
 }
 
 .projectCard {
@@ -73,6 +74,17 @@ p {
   text-align: justify;
 }
 
+#back {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
+}
+
 body {
   font-family: 'Catamaran', sans-serif;
   line-height: 25px;
@@ -90,7 +102,7 @@ div:hover{
   100% {background-color:whitesmoke;}
 }
 
-div:hover{
+.projectCard:hover{
   animation-name: magnify;
   animation-duration: 2s;
 }
@@ -99,3 +111,6 @@ div:hover{
   50% {transform: scale(1.5)}
   100% {transform: scale(1.1)}
 }
+
+/* add animated stuff to the background????and also lets put in animation-timing-function with some sort of effect. Nothing too overkill here though.*
+/* This is a single-line comment *
